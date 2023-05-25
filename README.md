@@ -48,6 +48,7 @@ from tasks.json:
 "-o",
 
 "${fileDirname}\\${fileBasenameNoExtension}.exe",
+
 "-lncurses"
 
 ],

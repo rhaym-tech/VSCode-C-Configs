@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "runner",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "builder",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "args": [],
+            "environment": [],
+            "stopAtEntry": false,
+            "MIMode": "gdb"
+        }
+    ]
+}

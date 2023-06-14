@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "runner",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "builder",
+            "program": "${workspaceFolder}/output/${fileBasenameNoExtension}",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "miDebuggerPath": "/usr/bin/gdb",
+            "args": [],
+            "environment": [],
+            "stopAtEntry": true,
+            "MIMode": "gdb"
+        }
+    ]
+}
